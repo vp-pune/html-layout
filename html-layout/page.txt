@@ -1,0 +1,82 @@
+ <div class="row">
+      <div class="col-sm d-flex">
+        <div class="col-4"><img src="assets/images/Layer 135.png" alt="invoicing" title="invoicing"></div>
+        <div class="col-8">Online invoicing system</div>
+      </div>
+      <div class="col-sm d-flex">
+        <div class="col-4"><img src="assets/images/Layer 136.png" alt="logistic-truck" title="logistic-truck"></div>
+        <div class="col-8">Online logistics system integrated with a leading company to deliver your items
+       
+      </div>
+      <div class="col-sm d-flex">
+        <div class="col-4"><img src="assets/images/Layer 137.png" alt="finance" title="finance"></div>
+        <div class="col-8">Online finance system
+     
+      </div>
+    </div>
+
+
+
+
+    <!-- <div class="row">
+      <div class=" d-flex">
+        <div class="col-4"><img src="assets/images/Layer 135.png" alt="invoicing" title="invoicing"></div>
+        <div class="col-8">Online invoicing system</div>
+      </div>
+      <div class="d-flex">
+        <div class="col-4"><img src="assets/images/Layer 136.png" alt="logistic-truck" title="logistic-truck"></div>
+        <div class="col-8">Online logistics system integrated with a leading company to deliver your items
+        </div>
+      </div>
+      <div class="d-flex">
+        <div class="col-4"><img src="assets/images/Layer 137.png" alt="finance" title="finance"></div>
+        <div class="col-8">Online finance system
+        </div>
+      </div> -->
+      <!-- <div class="col-4 d-flex">
+        <div class="col-4"><img src="assets/images/Layer 138.png" alt="dashboard" title="dashboard"></div>
+        <div class="col-8">Online Dashboard that gives you a glimpse about your business performance
+        </div>
+      </div>
+      <div class="col-4 d-flex">
+        <div class="col-4"><img src="assets/images/Layer 139.png" alt="feedback" title="feedback"></div>
+        <div class="col-8">Feedback system that will serve you in getting to know your customer needs
+        </div>
+      </div>
+      <div class="col-4 d-flex">
+        <div class="col-4"><img src="assets/images/Layer 143.png" alt="product-management" title="product-management">
+        </div>
+        <div class="col-8">Easy product management system to add your items that matches your shop category
+        </div>
+      </div>
+      <div class="col-4 d-flex">
+        <div class="col-4"><img src="assets/images/Layer 144.png" alt="mobile-app" title="mobile-app"></div>
+        <div class="col-8">Easy product management system to add your items that matches your shop category
+        </div>
+      </div>
+      <div class="col-4 d-flex">
+        <div class="col-4"><img src="assets/images/Layer 157.png" alt="inventory" title="inventory"></div>
+        <div class="col-8">Easy product management system to add your items that matches your shop category
+        </div>
+      </div>
+      <div class="col-4 d-flex">
+        <div class="col-4"><img src="assets/images/Layer 158.png" alt="handshake" title="handshake"></div>
+        <div class="col-8">Easy product management system to add your items that matches your shop category
+        </div>
+      </div> -->
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+      <h1 class="mb-3">Contact Us</h1>
+        <p><i class="fa-solid fa-envelope text-danger"></i><strong class="ml-3 email">Email:</strong> info@dukkanonline.ae</p>
+        <p><span><i class="fa-solid fa-phone text-danger"></i></span><strong class="ml-3 phone">Phone:</strong> +971524008888
+        </p>

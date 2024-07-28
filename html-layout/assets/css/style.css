@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading h1,
+.section-aboutUs h1,
+.card h5,
+.section-package h1,
+.section-subscription h1,
+.sub-yearly,
+.sub-monthly,
+.section-subscription label,
+.btn-danger,
+.section-contact h1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.heading h1,
+.section-package h1 {
+    font-size: 48px;
+}
+
+.section-contact h1,
+.section-subscription h1,
+.section-aboutUs h1 {
+    font-size: 40px;
+}
+
+.section-subscription h3 .card h5 {
+    font-size: 30px;
+}
+
+.section-subscription li,
+.heading p {
+    font-size: 24px;
+}
+
+.section-subscription label,
+.section-navbar li,
+.section-aboutUs p,
+.card p,
+.section-package p,
+.section-subscription p {
+    font-size: 20px;
+}
+
+.btn-danger {
+    font-size: 18px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.heading p,
+.section-navbar li,
+.section-aboutUs p,
+.card p,
+.section-package p,
+.section-subscription p,
+::placeholder {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-aboutUs .text-white,
+.row,
+.section-package {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card {
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to left, #f70d0d, #f58d8d);
+}
+
+.card-img-top {
+    width: 25%;
+    height: 19%;
+}
+
+.section-aboutUs>.row {
+    padding-top: 5%;
+    margin-bottom: -20%;
+    text-align: justify;
+}
+
+.section-package {
+    margin-top: 18%;
+}
+
+.section-subscription {
+    position: relative;
+    background-image: url(../images/Layer\ 152.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: scroll;
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 1200px) {
+    .subscription-form {
+        position: absolute;
+        top: 15%;
+        right: 0%;
+        background-color: #fff;
+    }
+
+
+    .rounded-circle {
+        height: 100%;
+        width: 100%;
+        height: 500px;
+        clip-path: inset(0 10% 0 0);
+    }
+
+    .contact-circle {
+        position: relative;
+    }
+
+    .contact-details {
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        text-align: left;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .section-aboutUs>.row {
+        padding-top: 5%;
+        margin-bottom: -10%;
+        text-align: justify;
+    }
+    .section-package {
+        margin-top: 6%;
+    }
+
+    .rounded-circle {
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        left: 25%;
+    }
+
+    .contact-circle {
+        position: relative;
+    }
+
+    .contact-details {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        text-align: left;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        text-align: center;
+    }
+
+    .section-aboutUs .text-white,
+    .row,
+    .section-package {
+        width: 100%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .rounded-circle {
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        left: 18%;
+    }
+
+    .contact-circle {
+        position: relative;
+    }
+
+    .contact-details {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        text-align: left;
+    }
+}
+
+/* animation */
+
+.nav-link:hover {
+    transform: scaleY(1.3);
+    border-radius: 10%;
+    box-shadow: 0 1px 2px 3px rgba(245, 106, 36, 0.5), 0 3px 4px 5px rgba(235, 152, 28, 0.5), 0 3px 4px 5px rgba(104, 104, 230, 0.5);
+    background: linear-gradient(to bottom, #f05e3e, #d7f23d);
+}
+
+.form-row input,
+select {
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    transition: 0.4s;
+}
+
+.form-row input:focus,
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.15vw #5f03f4;
+}
+
+.btn-danger {
+    transition: all 0.2s ease;
+}
+
+.btn-danger:hover {
+    transform: scale(0.96);
+}
+
+.btn-danger:before,
+.btn-danger:after {
+    position: absolute;
+    content: "";
+    width: 150%;
+    left: 50%;
+    height: 100%;
+    transform: translateX(-50%);
+    z-index: -1000;
+    background-repeat: no-repeat;
+}
+
+.btn-danger:hover:before {
+    top: -70%;
+    background-image: radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, transparent 20%, #a70606 20%, transparent 30%),
+        radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, transparent 10%, #a70606 15%, transparent 20%),
+        radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, #a70606 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+        10% 10%, 18% 18%;
+    background-position: 50% 120%;
+    animation: topBubbles 1s ease;
+}
+
+@keyframes topBubbles {
+    0% {
+        background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+            40% 90%, 55% 90%, 70% 90%;
+    }
+
+    50% {
+        background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+            50% 50%, 65% 20%, 90% 30%;
+    }
+
+    100% {
+        background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+            50% 40%, 65% 10%, 90% 20%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+
+.btn-danger:hover::after {
+    bottom: -70%;
+    background-image: radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, transparent 10%, #a70606 15%, transparent 20%),
+        radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, #a70606 20%, transparent 20%),
+        radial-gradient(circle, #a70606 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+    background-position: 50% 0%;
+    animation: bottomBubbles 1s ease;
+}
+
+@keyframes bottomBubbles {
+    0% {
+        background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+            70% -10%, 70% 0%;
+    }
+
+    50% {
+        background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+            105% 0%;
+    }
+
+    100% {
+        background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+            110% 10%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
